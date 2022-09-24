@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/pictures">
+        <file>pictures/background.png</file>
+        <file>pictures/column.png</file>
+        <file>pictures/game_over.png</file>
+        <file>pictures/ground.png</file>
+        <file>pictures/double_column.png</file>
+        <file>pictures/bird_up_wings2.png</file>
+        <file>pictures/mad_bird.png</file>
+        <file>pictures/strange_bird.png</file>
+        <file>pictures/column extreme.png</file>
+        <file>pictures/extreme_double_column.png</file>
+    </qresource>
+</RCC>

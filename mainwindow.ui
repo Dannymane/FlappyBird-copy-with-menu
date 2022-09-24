@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout"/>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuChoose_bird">
+    <property name="title">
+     <string>Choose bird</string>
+    </property>
+    <addaction name="actionRelax_bird"/>
+    <addaction name="actionMad_bird"/>
+    <addaction name="actionCrazy_bird"/>
+   </widget>
+   <widget class="QMenu" name="menuChoose_game_field">
+    <property name="title">
+     <string>Choose game field</string>
+    </property>
+    <addaction name="actionClassic"/>
+    <addaction name="actionExtreme"/>
+   </widget>
+   <addaction name="menuChoose_bird"/>
+   <addaction name="menuChoose_game_field"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionRelax_bird">
+   <property name="icon">
+    <iconset resource="resourse.qrc">
+     <normaloff>:/pictures/pictures/bird_up_wings2.png</normaloff>:/pictures/pictures/bird_up_wings2.png</iconset>
+   </property>
+   <property name="text">
+    <string>Relax bird</string>
+   </property>
+  </action>
+  <action name="actionMad_bird">
+   <property name="icon">
+    <iconset resource="resourse.qrc">
+     <normaloff>:/pictures/pictures/mad_bird.png</normaloff>:/pictures/pictures/mad_bird.png</iconset>
+   </property>
+   <property name="text">
+    <string>Mad bird</string>
+   </property>
+  </action>
+  <action name="actionCrazy_bird">
+   <property name="icon">
+    <iconset resource="resourse.qrc">
+     <normaloff>:/pictures/pictures/strange_bird.png</normaloff>:/pictures/pictures/strange_bird.png</iconset>
+   </property>
+   <property name="text">
+    <string>Crazy bird</string>
+   </property>
+  </action>
+  <action name="actionClassic">
+   <property name="icon">
+    <iconset resource="resourse.qrc">
+     <normaloff>:/pictures/pictures/column.png</normaloff>:/pictures/pictures/column.png</iconset>
+   </property>
+   <property name="text">
+    <string>Classic</string>
+   </property>
+  </action>
+  <action name="actionExtreme">
+   <property name="icon">
+    <iconset resource="resourse.qrc">
+     <normaloff>:/pictures/pictures/column extreme.png</normaloff>:/pictures/pictures/column extreme.png</iconset>
+   </property>
+   <property name="text">
+    <string>Extreme</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resourse.qrc"/>
+ </resources>
+ <connections/>
+</ui>
